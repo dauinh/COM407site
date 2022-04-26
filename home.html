@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Fuzzy Xpilot Controller</title>
+  </head>
+  <body>
+
+    
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+    <div class="container-fluid">
+      <!-- To make things don't stick to the edge -->
+
+    <button class="navbar-toggler" type ="button" data-toggle="collapse" data-target="#navbarMenu">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <!-- me is margin or padding right. This push things away from the right side -->
+          <li class="nav-item px-2">
+            <a href="index.html" class="nav-link">Home</a>
+            </li>  
+
+            <li class="nav-item px-2">
+                <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+
+<div class="container w-70">
+    <section class="banner">
+        <div class="row mx-5 my-5">
+            <div class="col-md-6 header-txt">
+                <h1 class="my-5">Evolving a fuzzy Xpilot controller </h1>
+                <!-- <h1>
+                    <span>it's</span>
+                    <span>Sylvia</span>
+                </h1> -->
+                <h4>
+                    COM407 final project
+                </h4>
+                <div class="buttons">
+                    <a class="btn btn-dark text-info my-5" href="https://github.com/dauinh/COM407" target="_blank">View code</a>
+                </div>    
+            </div>
+            <div class="col-md-6">
+                <img src="xpilot1.gif" alt="" class="img-fluid d-none d-lg-block d-xl-block">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="row mx-5 my-5">
+            <!-- <div class="col-md-5 text-center my-3">
+                <img src="./imgs/about.jpg" alt="" class="rounded-circle">
+            </div> -->
+            <div class="col-md-12">
+                <h1 class="text-center">Project description</h1>
+                <p class="lh-lg text-center my-3">
+                    We want to create a fuzzy system to control Xpilot agent, based on the homework earlier this semester. 
+                    There are two drawbacks in the previous system that we want to tackle this time: 
+                    (1) the values ranges in the old fuzzy system need to be carefully researched and calculated; 
+                    (2) the defuzzification process may require some rewriting. 
+                    In addition, as our old system focuses primarily on avoiding walls, we now want to add a separate set of fuzzy rules that control aiming and shooting of the agent.
+	                In addition, during the semester we’re quite intrigued by the concept of genetic algorithms. 
+                    Therefore, if time permits, we may explore the possibility of combining GA and fuzzy systems, where we use GA to learn the correct value ranges for the fuzzy system.
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="skills">
+        <h1 class="text-center my-5">Who we are</h1>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <h4>Linh Nguyen</h4>
+                <img src="cat1.jpg" alt="" class="rounded-circle img-fluid my-3" style="height: 50vh;">
+                <p class="lh-lg text-center">
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div class="col-md-4 text-center ">
+                <h4>Sylvia Le</h4>
+                <img src="cat2.jpg" alt="" class="rounded-circle img-fluid my-3" style="height: 50vh;">
+                <p class="lh-lg text-center">
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <h4>Uyen (Holly) Tran</h4>
+                <img src="cat3.jpg" alt="" class="rounded-circle img-fluid my-3" style="height: 50vh;">
+                <p class="lh-lg text-center">
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+
+    
+</div>
+
+
+
+
+<footer class="bg-light text-center text-lg-start">
+
+    <div class="text-center p-3">
+      © 2022 Copyright:
+      <a class="text-dark">Linh Nguyen, Sylvia Le, Uyen Tran
+      </a>
+    </div>
+  </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
