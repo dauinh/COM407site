@@ -25,7 +25,7 @@
         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
           <!-- me is margin or padding right. This push things away from the right side -->
           <li class="nav-item px-2">
-            <a href="index.html" class="nav-link">Home</a>
+            <a href="home.html" class="nav-link">Home</a>
             </li>  
 
             <li class="nav-item px-2">
@@ -69,13 +69,50 @@
                 <h1 class="text-center">Project description</h1>
                 <p class="lh-lg text-center my-3">
                     We want to create a fuzzy system to control Xpilot agent, based on the homework earlier this semester. 
-                    There are two drawbacks in the previous system that we want to tackle this time: 
-                    (1) the values ranges in the old fuzzy system need to be carefully researched and calculated; 
-                    (2) the defuzzification process may require some rewriting. 
+                    There are two drawbacks in the previous system that we want to tackle this time:<br/>
+                    (1) the values ranges in the old fuzzy system need to be carefully researched and calculated; <br/>
+                    (2) the defuzzification process may require some rewriting. <br/>
                     In addition, as our old system focuses primarily on avoiding walls, we now want to add a separate set of fuzzy rules that control aiming and shooting of the agent.
 	                In addition, during the semester we’re quite intrigued by the concept of genetic algorithms. 
                     Therefore, if time permits, we may explore the possibility of combining GA and fuzzy systems, where we use GA to learn the correct value ranges for the fuzzy system.
 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row mx-5 my-5">
+            <!-- <div class="col-md-5 text-center my-3">
+                <img src="./imgs/about.jpg" alt="" class="rounded-circle">
+            </div> -->
+            <div class="col-md-12">
+                <h1 class="text-center">How we did it</h1>
+                <p class="lh-lg text-center my-3">
+                   For the first phase, we created a fuzzy system that evaluate the risks of three behavior: wall avoidance, bullet dodging and shooting at enemy. 
+                   Whichever with the highest risk get the execution priority. After a behavior has been chosen, it will go into the corresponding production system. We spent most of the time
+                   rewriting the system for bullet dodging.<br/>
+                   In the second phase, we use a GA to train the fuzzy system of evaluating risk, using the chromosome size of 100 and the fitness function is the score of the agent. We did several
+                   training session; in the final training, we train 100 generations with each generation of 20 agents.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="about" id="about">
+        <div class="row mx-5 my-5">
+            <!-- <div class="col-md-5 text-center my-3">
+                <img src="./imgs/about.jpg" alt="" class="rounded-circle">
+            </div> -->
+            <div class="col-md-12">
+                <h1 class="text-center">Result</h1>
+                <p class="lh-lg text-center my-3">
+                    We tried (ノ_<。)<br/>
+                    The agent's only show a slight increase in competency after the training, and we figure out some possible sources of the problem:<br/>
+                    (1) the production system is not very robust<br/>
+                    (2) the fitness function needs modification (or we should have changed it to something else)<br/>
+                    (3) the selection and crossover process might be buggy (cuz the agent seems to learn from the bad guys instead (╯°益°)╯彡┻━┻)<br/>
                 </p>
             </div>
         </div>
@@ -89,39 +126,21 @@
                 <h4>Linh Nguyen</h4>
                 <img src="cat1.jpg" alt="" class="rounded-circle img-fluid my-3" style="height: 50vh;">
                 <p class="lh-lg text-center">
-                    Lorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    The mastermind. She carries the whole team
                 </p>
             </div>
             <div class="col-md-4 text-center ">
                 <h4>Sylvia Le</h4>
                 <img src="cat2.jpg" alt="" class="rounded-circle img-fluid my-3" style="height: 50vh;">
                 <p class="lh-lg text-center">
-                    Lorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    I provided some laugh and emotional support.
                 </p>
             </div>
             <div class="col-md-4 text-center">
                 <h4>Uyen (Holly) Tran</h4>
                 <img src="cat3.jpg" alt="" class="rounded-circle img-fluid my-3" style="height: 50vh;">
                 <p class="lh-lg text-center">
-                    Lorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    She's in charge of every physics/math related stuff.
                 </p>
             </div>
         </div>
